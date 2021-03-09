@@ -1,3 +1,26 @@
-body {
-    
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header nav {
+    margin: 2% 3% 0% 0%;
+    width: 39%;
+    font-size: 110%;
+}
+header .Call {
+    margin-left: 10%;
+    text-decoration-line: none;
+    border: 2.3px solid #b57ad2;
+    border-radius: 13px;
+    padding: 5px;
+    color: #b57ad2;
+    font-weight: 900;
+}
+header .lien {
+    margin: 1% 2% 0% 2%;
+    text-decoration-line: none;
+    color: black;
+}
+header h1 {
+    color: #b57ad2;
 }
