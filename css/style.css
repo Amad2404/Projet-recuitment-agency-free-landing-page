@@ -1,8 +1,11 @@
 header {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 header nav {
+     display: flex;
+    flex-wrap: wrap;
     margin: 2% 0% 0% 0%;
     width: 40em;
     font-size: 110%;
@@ -13,6 +16,7 @@ header .Call {
     border: 2.3px solid #b57ad2;
     border-radius: 13px;
     padding: 5px;
+    margin-bottom: 2%;
     color: #b57ad2;
     font-weight: 900;
 }
@@ -52,9 +56,74 @@ img.achievements {
 }
 .sectionD .cou {
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .cou1 {
     border: 3px solid #7773;
     border-radius: 8px;
 }
+.cou1 p {
+    text-align: start;
+    font-size: 190%;
+}
+.cou1 li {
+    font-size: 130%;
+    font-weight: bold;
+    list-style: none;
+    margin-bottom: 4%;
+}
+.cou1 li:before {
+    position: relative;
+    left: -1vh;
+    bottom: -1.5vh;
+    content:"\2022";
+    color: #B57AD2;
+    font-size: 200%;
+}
+ul a.btn {
+    text-decoration-line: none;
+    color: white;
+    background-color: #B57AD2;
+    padding: 2%;
+    font-size: 130%;
+    font-weight: 600;
+    border-radius: 25px;
+}
+.sectionT h2, .sectionT .pa {
+    text-align: center;
+}
+.sf .Understand {
+    background: url("../images/Group1.PNG") no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.sf .start {
+    background: url("../images/Group2.PNG") no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.sf .flexible {
+    background: url("../images/Frame 6.PNG") no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.sectionT div.sf {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sf div {
+    width: 25em;
+    height: 40em;
+}
+.sf div h3 {
+    margin-top: 100%;
+    text-align: center;
+    color: white;
+}
+.sf div p {
+    margin: 9%;
+    color: white;
+}
+
