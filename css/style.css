@@ -126,4 +126,72 @@ ul a.btn {
     margin: 9%;
     color: white;
 }
-
+button a {
+    text-decoration-line: none;
+    color: white;
+    font-size:150%;
+}
+button.a {
+    background-color: #B57AD2;
+    border-radius: 30px;
+    padding: 2%;
+}
+.sectionQ {
+    text-align: center;
+}
+.sectionQ .sauce {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sauce div {
+    width: 20em
+}
+button.b {
+    background-color: #B57AD2;
+    border-radius: 30px;
+    padding: 1%;
+}
+.sectionC {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: url("../images/Rectangle 7.PNG") no-repeat;
+    background-size: cover;
+}
+.para {
+    width: 23em;
+    font-size: 180%
+}
+.para1 {
+    font-size: 70%;
+}
+.para2 {
+    font-size: 70%;
+    margin-top: -5%;
+}
+div.founder {
+    margin: 2%;
+}
+.sectionS {
+    text-align: center;
+    background: url("../images/Oval.PNG") no-repeat;
+    background-size: cover;
+    height: 50em;
+}
+div.pm {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 3% 0% 2% 5%}
+div.tn {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.sectionS h2 {
+    font-size: 180%;
+}
+.sectionS p {
+    font-size: 130%;
+}
