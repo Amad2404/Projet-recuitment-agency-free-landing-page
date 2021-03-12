@@ -135,6 +135,7 @@ button.a {
     background-color: #B57AD2;
     border-radius: 30px;
     padding: 2%;
+    border: none;
 }
 .sectionQ {
     text-align: center;
@@ -151,6 +152,7 @@ button.b {
     background-color: #B57AD2;
     border-radius: 30px;
     padding: 1%;
+    border: none;
 }
 .sectionC {
     display: flex;
@@ -194,4 +196,128 @@ div.tn {
 }
 .sectionS p {
     font-size: 130%;
+}
+.sectionSe .stori {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div.sto {
+    width: 30em;
+    height: 25em;
+    margin-top: 10%;
+    
+}
+div.ech img {
+    width: 40em;
+    height: 40em;
+}
+.sectionSe h2, .typ {
+    text-align: center;
+}
+.sectionSe li {
+    list-style: none;
+    margin-bottom: 4em;
+    margin-top: -3em;
+}
+.sectionSe li:before {
+    content: ".";
+    color: #B57AD2;
+    position: relative;
+    font-size: 5em;
+}
+.sectionSe span {
+    font-size: 120%;
+    font-weight: 900;
+}
+.sectionSe li p {
+    margin-top: -0.5em;
+}
+.sectionH {
+    background-color: #fefaf8;
+}
+div.our {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+div.exp {
+    width: 32em;
+    margin-top: 3em;
+    font-size: 110%;
+}
+form input[type=text] {
+    width: 20em;
+    height: 2em;
+    margin-bottom: 1em;
+    border-radius: 3px;
+    border: 1px solid #7775;
+    font-size: 100%;
+    padding-left: 2%;
+}
+form textarea {
+    width: 20.4em;
+    height: 10em;
+    border-radius: 3px;
+    border: 1px solid #7775;
+    font-size: 120%;
+}
+.hexp {
+    text-align: center;
+    font-size: 210%;
+}
+.hexp2 {
+    text-align: center;
+    font-size: 110%;
+}
+.bt3 {
+    background-color: #B57AD2;
+    padding: 2%;
+    border-radius: 25px;
+    border: none;
+}
+form input[type=submit] {
+   background-color: #B57AD2;
+    padding: 3%;
+    font-size: 130%;
+    margin: 5% 0% 5% 35%;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+footer {
+    background-color: #B57AD2;
+}
+div.fot1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+}
+footer li {
+    list-style: none;
+    margin-left: -2.3em;
+    margin-bottom: 0.5em;
+}
+footer li a {
+    text-decoration-line: none;
+    color: white;
+}
+footer ul {
+    margin-top: -1.1em
+}
+footer p {
+    text-align: center;
+    margin-top: 4%;
+    color: white;
+}
+.socio {
+    width: 21%;
+    margin-bottom: 1.5%;
+}
+header nav .lien:hover {
+    text-decoration: underline;
+}
+footer li a:hover {
+    text-decoration: underline;
 }
